@@ -1,0 +1,35 @@
+= Vertx-download-file-demo
+
+image:https://img.shields.io/badge/vert.x-4.2.6-purple.svg[link="https://vertx.io"]
+
+This is a demo project for downloading files from a REST endpoint using Eclipse Vert.x.
+
+Start the application and access http://localhost:8888 in your browser to download the file.
+
+This application was generated using http://start.vertx.io
+
+== Building
+
+To launch your tests:
+```
+./mvnw clean test
+```
+
+To package your application:
+```
+./mvnw clean package
+```
+
+To run your application:
+```
+./mvnw clean compile exec:java
+```
+
+== Help
+
+* https://vertx.io/docs/[Vert.x Documentation]
+* https://stackoverflow.com/questions/tagged/vert.x?sort=newest&pageSize=15[Vert.x Stack Overflow]
+* https://groups.google.com/forum/?fromgroups#!forum/vertx[Vert.x User Group]
+* https://gitter.im/eclipse-vertx/vertx-users[Vert.x Gitter]
+
+
